@@ -1,0 +1,82 @@
+
+#players-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+}
+
+.card {
+    width: calc(25% - 20px); 
+    margin: 10px;
+    background-color: #f0f0f0;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card img {
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+    height: auto;
+}
+
+.card h3 {
+    margin: 10px 0;
+}
+
+.card button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+    width: 80%;
+    border-radius: 5px;
+}
+
+.card button:hover {
+    background-color: #45a049;
+}
+/* Estilos base para os cards
+.card {
+  box-sizing: border-box;
+  margin: 10px;
+  flex: 0 1 auto;
+  width: calc(100% - 20px);
+  
+}
+
+/* Container principal dos cards */
+/* .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+} */
+
+/* Media queries para estilização responsiva */
+/* @media (max-width: 768px) {
+  .container .card {
+    width: 100%; 
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .container .card {
+    width: 50%; 
+  }
+}
+
+@media (min-width: 1025px) {
+  .container .card {
+    width: 25%; 
+  }
+} */ 
